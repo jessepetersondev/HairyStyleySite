@@ -3,37 +3,107 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HairyStyley - Fun Hairstyles & Products</title>
+  <title>Hairy Styley - Fun Hair Products for Kids & Families</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="logos/hairy-styley-icon-logo.png">
   <script defer src="app.js"></script>
 </head>
 <body>
   <header class="hero">
-    <h1>HairyStyley</h1>
-    <p>Fun, Kid-Friendly Hairstyles + Products We Love</p>
+    <div class="hero-content">
+      <img src="logos/hairy-styley-horizontal-logo.png" alt="Hairy Styley Logo" class="logo">
+      <h1>Fun Hair for Amazing Kids!</h1>
+      <p>Discover the most amazing hair products that make styling fun, safe, and absolutely magical for kids and families! ✨</p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Shop My Favorites ⭐</button>
+        <button class="btn-secondary">See All Products 🌈</button>
+      </div>
+    </div>
+    <div class="floating-elements">
+      <img src="icons/sparkle-icon.png" alt="Sparkle" class="floating sparkle-1">
+      <img src="icons/heart-icon.png" alt="Heart" class="floating heart-1">
+      <img src="icons/star-icon.png" alt="Star" class="floating star-1">
+    </div>
   </header>
 
   <main>
-    <section id="starter-kits">
-      <h2>Starter Kits</h2>
-      <div class="grid" id="kits"></div>
+    <section class="features">
+      <div class="container">
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🌈</div>
+            <h3>Kid-Safe</h3>
+            <p>All products are carefully selected for safety and gentleness on children's hair</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">✨</div>
+            <h3>Fun & Easy</h3>
+            <p>Make hair styling a joyful experience with products that work like magic</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">💝</div>
+            <h3>Mom Approved</h3>
+            <p>Tested and loved by real families for amazing results every time</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="products">
-      <h2>All Products</h2>
-      <input type="text" id="search" placeholder="Search products..." />
-      <div class="grid" id="products-grid"></div>
+    <section id="starter-kits" class="section">
+      <div class="container">
+        <h2>💖 My Top Picks</h2>
+        <p class="section-subtitle">These are my absolute favorite products that I use all the time! They're the ones that make hair styling super fun and give the most amazing results! 💖</p>
+        <div class="grid" id="kits"></div>
+      </div>
     </section>
 
-    <section id="faq">
-      <h2>FAQ</h2>
-      <p><strong>Are these products safe for kids?</strong><br/>Yes! We only recommend safe, family-friendly items.</p>
-      <p><strong>Do you make money from links?</strong><br/>Yes, some are Amazon affiliate links. It supports our content at no extra cost to you!</p>
+    <section id="products" class="section">
+      <div class="container">
+        <h2>🌟 Amazing Products</h2>
+        <p class="section-subtitle">Discover all the fantastic hair products I use and recommend for creating magical hairstyles!</p>
+        <div class="search-container">
+          <input type="text" id="search" placeholder="Search for amazing products..." />
+          <span class="search-icon">🔍</span>
+        </div>
+        <div class="grid" id="products-grid"></div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <h2>❓ Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          <div class="faq-card">
+            <h3>Are these products safe for kids?</h3>
+            <p>Yes! We only recommend safe, family-friendly items that are gentle on children's hair and scalp. Every product is carefully selected with safety as our top priority.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Do you make money from links?</h3>
+            <p>Yes, some are Amazon affiliate links. This helps support our content creation at no extra cost to you! We only recommend products we genuinely love and use.</p>
+          </div>
+          <div class="faq-card">
+            <h3>How do you choose products?</h3>
+            <p>Every product is tested with real kids and families! We only share products that have impressed us and delivered amazing results in daily use.</p>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 HairyStyley. As an Amazon Associate we earn from qualifying purchases.</p>
+    <div class="container">
+      <div class="footer-content">
+        <img src="logos/hairy-styley-horizontal-logo.png" alt="Hairy Styley" class="footer-logo">
+        <p>Making hair styling fun, safe, and magical for families everywhere! ✨</p>
+        <div class="social-links">
+          <a href="#" class="social-link">📘 Facebook</a>
+          <a href="#" class="social-link">📷 Instagram</a>
+          <a href="#" class="social-link">🎥 YouTube</a>
+        </div>
+        <p class="disclaimer">© 2025 Hairy Styley. As an Amazon Associate we earn from qualifying purchases. All product recommendations are genuine and based on personal experience.</p>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
+
